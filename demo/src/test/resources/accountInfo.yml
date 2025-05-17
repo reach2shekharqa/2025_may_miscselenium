@@ -6,7 +6,7 @@ accountInfo:
     value: "chandra shekhar pandey"
 
   accountDropdown:
-    type: button
+    type: dropdown
     locator: "select[id='accountType']"
     locatorType: css
     value: "current"

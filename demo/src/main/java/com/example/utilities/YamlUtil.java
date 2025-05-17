@@ -65,11 +65,11 @@ public final class YamlUtil {
 
                 case "dropdown":
                     Select dropdown = new Select(element);
-                    dropdown.selectByVisibleText(expectedValue);
-                    String selectedOption = dropdown.getFirstSelectedOption().getText();
-                    if (!expectedValue.equals(selectedOption)) {
+                    dropdown.selectByValue(expectedValue);
+                    String selectedValue = dropdown.getFirstSelectedOption().getAttribute("value");
+                    if (!selectedValue.equals(expectedValue)) {
                         throw new AssertionError("Dropdown mismatch for '" + fieldName +
-                                "'. Expected: '" + expectedValue + "', Found: '" + selectedOption + "'");
+                                "'. Expected value: '" + expectedValue + "', Found: '" + selectedValue + "'");
                     }
                     break;
 
