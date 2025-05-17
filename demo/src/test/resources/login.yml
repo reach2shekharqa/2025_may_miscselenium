@@ -1,0 +1,16 @@
+login:
+  username:
+    type: textbox
+    locator: "username"
+    locatorType: id
+    value: "admin"
+  password:
+    type: textbox
+    locator: "password"
+    locatorType: id
+    value: "1234"
+  loginButton:
+    type: button
+    locator: "//button[text()='Login']"
+    locatorType: xpath
+    value: ""

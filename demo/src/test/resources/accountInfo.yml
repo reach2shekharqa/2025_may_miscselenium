@@ -1,0 +1,24 @@
+accountInfo:
+  username:
+    type: textbox
+    locator: "fullName"
+    locatorType: id
+    value: "chandra shekhar pandey"
+
+  accountDropdown:
+    type: button
+    locator: "select[id='accountType']"
+    locatorType: css
+    value: "current"
+
+  subscribeCheckbox:
+    type: checkbox
+    locator: "input[id='agree']"
+    locatorType: css
+    value: "true"
+    
+  submitButton:
+    type: button
+    locator: "//button[text()='Submit']"
+    locatorType: xpath
+    value: ""

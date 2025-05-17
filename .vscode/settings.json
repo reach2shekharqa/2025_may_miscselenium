@@ -1,0 +1,17 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+ 
+ 
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": "instructions.md"
+    }
+  ],
+  "java.compile.nullAnalysis.mode": "automatic",
+
+  "github.copilot.chat.commitMessageGeneration.instructions": [{
+    "text": "beautiful messages with emojis for all new,updaetd files,folders"
+  }]
+ 
+}

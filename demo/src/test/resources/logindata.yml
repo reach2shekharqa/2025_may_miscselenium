@@ -1,0 +1,16 @@
+login:
+  username:
+    type: textbox
+    locator: "user-name"
+    locatorType: id
+    value: "standard_user"
+  password:
+    type: textbox
+    locator: "password"
+    locatorType: id
+    value: "secret_sauce"
+  loginButton:
+    type: button
+    locator: "//input[@type='submit']"
+    locatorType: xpath
+    value: ""
